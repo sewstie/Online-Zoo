@@ -245,14 +245,18 @@
     align-items: center;
 }
 
-.content__bar-points button{
+.content__bar-point{
     cursor: pointer;
     border: none;
-    width: 10px;
-    height: 10px;
+    width: 12px;
+    height: 12px;
     border-radius: 50%;
     background: rgb(255, 238, 46);
     position: relative;
+}
+
+.content__bar-point.active{
+    background: rgb(254, 144, 19);
 }
 
 .content__bar-prices{
@@ -260,7 +264,7 @@
     justify-content: space-between;
 }
 
-.content__bar-prices span{  
+.content__bar-price{  
     color: #333B41;
     font-family: Roboto;
     font-size: 26px;
@@ -268,4 +272,9 @@
     font-weight: 500;
     line-height: 140%; /* 36.4px */
     text-transform: uppercase;
+}
+
+.content__bar-price.active{
+    color: rgb(254, 144, 19);
+    transition: 0.5s;
 }
