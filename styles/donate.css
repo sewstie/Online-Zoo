@@ -234,14 +234,13 @@
 
 .content__bar{
     margin-top: 17px;
-}
-
-.content__bar-points{
-    height: 2px;
-    background: #72828E;
-    border: 12.5px #404950 solid;
     display: flex;
     justify-content: space-between;
+}
+
+.content__bar-pair{
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
@@ -253,15 +252,13 @@
     border-radius: 50%;
     background: rgb(255, 238, 46);
     position: relative;
+    margin: 10px;
+    transition: 0.5s;
 }
 
 .content__bar-point.active{
     background: rgb(254, 144, 19);
-}
-
-.content__bar-prices{
-    display: flex;
-    justify-content: space-between;
+    transition: 0.5s;
 }
 
 .content__bar-price{  
@@ -272,6 +269,7 @@
     font-weight: 500;
     line-height: 140%; /* 36.4px */
     text-transform: uppercase;
+    transition: 0.5s;
 }
 
 .content__bar-price.active{
