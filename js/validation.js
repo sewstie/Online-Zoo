@@ -27,11 +27,15 @@ function isEmailValid(value) {
 inputButton.addEventListener('click', function(){
     if (isEmailValid(inputEmail.value)) {
         confText.innerHTML = "Your email was send";
-        confText.style.color = "green";
-        console.log('true');
+        confText.style.color = "#4B9200";
     } else {
         confText.innerHTML = "Enter correct email!";
-        confText.style.color = "red";
+        inputEmail.style.borderColor = '#D31414';
+        inputButton.style.borderColor = '#D31414';
+        inputButton.style.border.color = '#D31414';
+        inputButton.style.color = '#D31414';
+        inputEmail.style.color = '#BDBDBD';
+        confText.style.color = "#D31414";
     }
 });
 
