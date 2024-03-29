@@ -50,6 +50,7 @@
     border-radius: 20px;
     background: rgba(255, 255, 255, 0.52);
     backdrop-filter: blur(2px);
+    position: relative;
 }
 
 .content-title{
@@ -123,7 +124,7 @@
 }
 
 .content-input{
-    margin: 50px auto 0 auto;
+    margin: 60px auto 0 auto;
     position:relative;
     width: 268px;
     height: 54px;
@@ -236,12 +237,16 @@
     margin-top: 17px;
     display: flex;
     justify-content: space-between;
+    border: 12.5px solid #404950;
+    height: 2px;
+    background-color: #72828E;
 }
 
 .content__bar-pair{
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 5px;
 }
 
 .content__bar-point{
@@ -251,9 +256,10 @@
     height: 12px;
     border-radius: 50%;
     background: rgb(255, 238, 46);
-    position: relative;
     margin: 10px;
     transition: 0.5s;
+    position: absolute;
+    bottom: 363px; 
 }
 
 .content__bar-point.active{
@@ -270,6 +276,7 @@
     line-height: 140%; /* 36.4px */
     text-transform: uppercase;
     transition: 0.5s;
+    margin-top: 20px;
 }
 
 .content__bar-price.active{
