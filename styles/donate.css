@@ -262,9 +262,28 @@
     bottom: 363px; 
 }
 
-.content__bar-point.active{
-    background: rgb(254, 144, 19);
+.content__bar-point.active::before{
     transition: 0.5s;
+    position: absolute;
+    content: "";
+    background: transparent;
+    width: 24px;
+    height: 24px;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    border: 2px solid rgb(254, 144, 19);
+}
+
+.content__bar-point.active::after{
+    transition: 0.5s;
+    position: absolute;
+    content: "";
+    background: transparent;
+    width: 36px;
+    height: 36px;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    border: 2.25px solid rgb(254, 144, 19);
 }
 
 .content__bar-price{  
