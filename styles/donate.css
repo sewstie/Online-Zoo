@@ -259,7 +259,7 @@
     margin: 10px;
     transition: 0.5s;
     position: absolute;
-    bottom: 363px; 
+    top: 576px; 
 }
 
 .content__bar-point.active::before{
