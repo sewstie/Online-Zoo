@@ -11,7 +11,7 @@
 }
 
 .header__bottom {
-    background-image: url("../../assets/images/header-bg.jpg");
+    background-image: url("../assets/images/header-bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
