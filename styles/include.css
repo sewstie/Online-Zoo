@@ -18,7 +18,7 @@ body {
 }
 
 .header__top-logo{
-  background-image: url("/assets/images/logo.png");
+  background-image: url("../../assets/images/logo.png");
   background-repeat: no-repeat;
   width: 83px;
   height: 53px;
@@ -128,7 +128,7 @@ body {
 
 .header__bottom {
   width: 100%;
-  background-image: url("/assets/images/header-bg.jpg");
+  background-image: url("../../assets/images/header-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -219,6 +219,10 @@ body {
   background-color: #E47209;
 }
 
+.header__btn:active{
+  background: #4B9200;
+}
+
 .info-btn{
   display: none;
   border: 0;
@@ -264,7 +268,7 @@ body {
 }
 
 .footer__top-logo{
-  background-image: url("/assets/images/logo.png");
+  background-image: url("../../assets/images/logo.png");
   width: 82px;
   height: 52px;
 }
@@ -285,6 +289,7 @@ body {
   border-radius: 2px;
   border: 0.7px solid var(--orange, #F9804B);
   background: none;
+  color: var(--Gray-4, #BDBDBD);
 }
 
 .footer__top-input::placeholder{
@@ -296,25 +301,27 @@ body {
   line-height: 140%;
 }
 
+#input-result{
+  color:white;
+  font-size:15px;
+  height:20px;
+  margin-top:10px
+}
+
 .footer__top-btn{
   cursor: pointer;
   width: 129px;
   height: 42px;
-  color: var(--Green, #4B9200);
+  color: #000;
   font-family: Roboto;
   font-size: 1em;
   font-style: normal;
   font-weight: 400;
   line-height: 140%;
   border-radius: 5px;
-  border: 1px solid var(--Green, #4B9200);
+  border: 1px solid var(--black_blue, #333B41);
   background: var(--gray_light, #F1F3F2);
   transition: 0.3s;
-}
-
-.footer__top-btn:hover{
-  color: var(--Green, #F1F3F2);
-  background: var(--gray_light, #4B9200);
 }
 
 .footer-btn{
@@ -362,7 +369,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("/assets/images/footer-image.png");
+  background-image: url("../../assets/images/footer-image.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -408,4 +415,3 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
