@@ -14,7 +14,7 @@
 .info-image{
   width: 609px;
   height: 403px;
-  background-image: url("/assets/images/info-image.png");
+  background-image: url('../assets/images/info-image.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
