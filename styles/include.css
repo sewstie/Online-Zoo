@@ -3,6 +3,10 @@ body {
   font-size: 16px;
 }
 
+body.no-scroll {
+  overflow: hidden;
+}
+
 .container {
   max-width: 1160px;
   margin: 0 auto;
